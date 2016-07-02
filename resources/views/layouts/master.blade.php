@@ -4,9 +4,7 @@
         <title>Simon Tamas @yield('title')</title>
         @include('includes.head')
     </head>
-    <body>
-        <div class="container">
-            @yield('content')
-        </div>
+    <body id="home">
+        @yield('content')
     </body>
 </html>

@@ -1,22 +1,25 @@
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a href="/" class="navbar-brand navbar-link">
-                <i class="glyphicon glyphicon-user"></i> Simon Tamás
-            </a>
-            <button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggle collapsed">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse" id="navcol-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active" role="presentation"><a href="/work">My work</a></li>
-                <li role="presentation"><a href="/background">Background </a></li>
-                <li role="presentation"><a href="/philosophy">Philosophy </a></li>
-            </ul>
+<!-- FullScreen -->
+<div class="intro-header">
+    <div class="col-xs-12 text-center abcen1">
+        <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Simon Tamás</h1>
+        <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Full-stack web/game developer</h3>
+        <ul class="list-inline intro-social-buttons">
+            <li>
+                <a target="_blank" href="https://github.com/SimonTamas" class="btn btn-github btn-lg wow fadeIn" data-wow-delay="0.8s">
+                    <span class="fa fa-github"></span>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.linkedin.com/in/simon-tamas-884326124?trk=nav_responsive_tab_profile" class="btn btn-lg btn-linkedin wow swing wow fadeIn" data-wow-delay="1.2s">
+                    <span class="fa fa-linkedin"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- /.container -->
+    <div class="col-xs-12 text-center abcen wow fadeIn">
+        <div class="button_down ">
+            <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#whatis"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
         </div>
     </div>
-</nav>
+</div>
