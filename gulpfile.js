@@ -1,16 +1,19 @@
-var elixir = require('laravel-elixir');
+var gulp = require('gulp');
+var ts = require('gulp-typescript');
+var closureCompiler = require('gulp-closure-compiler');
 
-/*
- |--------------------------------------------------------------------------
- | Elixir Asset Management
- |--------------------------------------------------------------------------
- |
- | Elixir provides a clean, fluent API for defining some basic Gulp tasks
- | for your Laravel application. By default, we are compiling the Sass
- | file for our application, as well as publishing vendor resources.
- |
- */
 
-elixir(function(mix) {
-    mix.sass('app.scss');
+gulp.task('default', function () {
+    return gulp.src(['resources/assets/ts/*.ts','typings/index.d.ts'])
+        .pipe(ts({
+            allowJs: true,
+            noImplicitAny: false,
+            out: 'app.js'
+        }))
+        .pipe(gulp.dest('public/js'))
+        .pipe(closureCompiler({
+            compilerPath: 'java/compiler.jar',
+            fileName: "app.js"
+        }))
+        .pipe(gulp.dest('public/js'));
 });
