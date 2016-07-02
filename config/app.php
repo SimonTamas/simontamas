@@ -162,7 +162,8 @@ return [
         /*
          * Custom Service Providers (by Simon Tamas)
          */
-        'GrahamCampbell\HTMLMin\HTMLMinServiceProvider'
+        'GrahamCampbell\HTMLMin\HTMLMinServiceProvider',
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class
 
     ],
 
