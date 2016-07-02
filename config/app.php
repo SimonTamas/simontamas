@@ -158,6 +158,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+
+        /*
+         * Custom Service Providers (by Simon Tamas)
+         */
+        'GrahamCampbell\HTMLMin\HTMLMinServiceProvider'
+
     ],
 
     /*
@@ -203,6 +209,11 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        /*
+         * Custom Aliases (by Simon Tamas)
+         */
+        'HTMLMin' => 'GrahamCampbell\HTMLMin\Facades\HTMLMin'
 
     ],
 
