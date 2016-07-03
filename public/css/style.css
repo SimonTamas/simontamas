@@ -1528,7 +1528,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   height: auto;
 }
 .input-group-addon {
-  padding: 10px 12px;
+  padding: 10px 19px;
   font-size: 15px;
   color: #ffffff;
   text-align: center;
@@ -1537,6 +1537,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-radius: 6px;
   -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
   transition: border .25s linear, color .25s linear, background-color .25s linear;
+}
+.input-group-addon .form-control-feedback {
+  margin-right:4px;
+  top:4px;
 }
 .input-group-hg .input-group-addon,
 .input-group-lg .input-group-addon,
@@ -4492,12 +4496,14 @@ footer p {
   width: 216px;
 }
 .footer-banner {
-  background-color: #34495e;
-  color: #fff;
   margin-left: 42px;
-  min-height: 316px;
-  padding: 0 30px 30px;
+  min-height: 440px;
 }
+
+.footer-banner img {
+  margin-top:70px;
+}
+
 .footer-banner .footer-title {
   color: #ffffff;
 }

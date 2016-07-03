@@ -41,13 +41,13 @@
             <div class="col-sm-4 wow fadeInDown text-center">
                 <img class="rotate" src="img/tech/typescript.png" alt="TypeScript">
                 <h3>TypeScript</h3>
-                <p class="lead">This superset of JavaScript is my secret weapon. I love using it!</p>
+                <p class="lead">This superset of JavaScript is <br/> my secret weapon. I love using it!</p>
             </div>
 
             <div class="col-sm-4 wow fadeInDown text-center">
                 <img  class="rotate" src="img/tech/csharp.png" alt="C#">
                 <h3>C#</h3>
-                <p class="lead">Either in .NET or Unity my OOP skills with C# are more than adequate.</p>
+                <p class="lead">Either in .NET or Unity my OOP skills <br/> with C# are more than adequate.</p>
             </div>
 
         </div>
@@ -57,7 +57,7 @@
             <div class="col-sm-4 wow fadeInDown text-center">
                 <img class="rotate" src="img/tech/wordpress.png" alt="Wordpress">
                 <h3>Wordpress</h3>
-                <p class="lead">Even though I miss the MVC, when it comes CMS its Wordpress all the way!</p>
+                <p class="lead">Even though missing a MVC, when it comes CMS its Wordpress all the way!</p>
             </div>
 
             <div class="col-sm-4 wow fadeInDown text-center">

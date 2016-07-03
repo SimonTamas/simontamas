@@ -10,7 +10,7 @@
 
             <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">
                 <h3 class="section-heading">And banners too!</h3>
-                <div class="sub-title lead3">Banners nowawadays are real challanges for us webdevs!</div>
+                <div class="sub-title lead3">Banners nowadays are a real challenge for us web developers!</div>
                 <p class="lead">
                     Having had the opportunity to work for big clients in Hungary, in the past year I have made
                     several Flash and even more HTML5 ads for the commercial market.

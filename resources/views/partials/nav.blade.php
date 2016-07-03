@@ -15,9 +15,9 @@
             <ul class="nav navbar-nav">
 
                 <li class="menuItem"><a href="#whatis">Who?</a></li>
-                <li class="menuItem"><a href="#useit">About</a></li>
-                <li class="menuItem"><a href="#screen">Portfolio</a></li>
-                <li class="menuItem"><a href="#credits">Work</a></li>
+                <li class="menuItem"><a href="#useit">Games</a></li>
+                <li class="menuItem"><a href="#screen">Banners</a></li>
+                <li class="menuItem"><a href="#credits">More</a></li>
                 <li class="menuItem"><a href="#contact">Contact</a></li>
             </ul>
         </div>
