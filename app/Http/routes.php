@@ -13,3 +13,5 @@
 
 
 Route::get('/', 'IndexController@Start');
+Route::get('/resume', 'ResumeController@Start');
+Route::get('/portfolio', 'PortfolioController@Start');

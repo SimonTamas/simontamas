@@ -1,5 +1,5 @@
 <!-- Use it -->
-<div id ="games" class="content-section-a">
+<div id="games" class="content-section-a">
 
     <div class="container">
 
@@ -19,11 +19,6 @@
                     <br/>
                     And thanks to <a href="https://www.ludei.com/cocoonjs/">Cocoonjs</a>
                     games made with Phaser can easly be released to mobiles and tablets with near native performance!
-                </p>
-
-                <p>
-                    <a class="btn btn-embossed btn-primary" href="/games" role="button">My games</a>
-                    <a target="_blank" class="btn btn-embossed btn-phaser" href="http://phaser.io/" role="button">Visit Phaser</a>
                 </p>
             </div>
         </div>

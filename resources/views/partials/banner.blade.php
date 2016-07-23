@@ -1,4 +1,4 @@
-<div class="content-section-b">
+<div id="banners" class="content-section-b">
 
     <div class="container">
         <div class="row">
@@ -19,8 +19,6 @@
                     The size limits were what I mostly enjoyed about them and was always eager to
                     chop down as many kilobytes as I could!
                 </p>
-
-                <p><a class="btn btn-embossed btn-primary" href="#" role="button">My banners</a>
             </div>
         </div>
     </div>

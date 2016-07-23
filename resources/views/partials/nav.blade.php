@@ -8,17 +8,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#home">Simon Tamás</a>
+            <a class="navbar-brand" href="{{ url('/') }}">Simon Tamás</a>
         </div>
 
         <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-
-                <li class="menuItem"><a href="#whatis">Who?</a></li>
-                <li class="menuItem"><a href="#useit">Games</a></li>
-                <li class="menuItem"><a href="#screen">Banners</a></li>
-                <li class="menuItem"><a href="#credits">More</a></li>
-                <li class="menuItem"><a href="#contact">Contact</a></li>
+               <li class="menuItem"><a href="/">Home<b></b></a></li>
+                <li class="menuItem"><a href="{{ url('/portfolio') }}">Portfolio</a></li>
+                <li class="menuItem"><a href="{{ url('/resume') }}">Résumé<b></b></a></li>
             </ul>
         </div>
 

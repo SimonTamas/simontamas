@@ -16,5 +16,7 @@
 <script type="text/javascript" src="{{URL::asset('js/uiMorphingButton_inflow.js')}}"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
+<!-- Fancybox -->
+<script type=text/javascript src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
 <script type="text/javascript" src="{{URL::asset('js/script.js')}}"></script>

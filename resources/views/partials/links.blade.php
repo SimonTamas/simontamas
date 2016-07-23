@@ -1,5 +1,5 @@
 <!-- Credits -->
-<div id="credits" class="content-section-c">
+<div id="more" class="content-section-c">
     <div class="container">
         <div class="row">
 
@@ -11,7 +11,7 @@
             <div class="col-sm-6  block wow bounceIn">
                 <div class="row">
                     <a class="box-icon-container" href="/portfolio">
-                        <div class="col-md-4 box-icon rotate">
+                        <div class="col-md-4 box-icon">
                             <i class="fa fa-briefcase fa-4x "> </i>
                         </div>
                         <div class="col-md-8 box-ct white">
@@ -24,7 +24,7 @@
             <div class="col-sm-6 block wow bounceIn">
                 <div class="row">
                     <a class="box-icon-container" href="/resume">
-                        <div class="col-md-4 box-icon rotate">
+                        <div class="col-md-4 box-icon">
                             <i class="fa fa-wpforms fa-4x "> </i>
                         </div>
                         <div class="col-md-8 box-ct white">
@@ -35,12 +35,12 @@
                 </div>
             </div>
         </div>
-
+        {{--
         <div class="row tworow">
             <div class="col-sm-6  block wow bounceIn">
                 <div class="row">
                     <a class="box-icon-container" href="/behindthescene">
-                        <div class="col-md-4 box-icon rotate">
+                        <div class="col-md-4 box-icon">
                             <i class="fa fa-code fa-4x "> </i>
                         </div>
                         <div class="col-md-8 box-ct white">
@@ -53,7 +53,7 @@
             <div class="col-sm-6 block wow bounceIn">
                 <div class="row">
                     <a class="box-icon-container" href="/about">
-                        <div class="col-md-4 box-icon rotate">
+                        <div class="col-md-4 box-icon">
                             <i class="fa fa-user fa-4x "> </i>
                         </div>
                         <div class="col-md-8 box-ct white">
@@ -64,5 +64,6 @@
                 </div>
             </div>
         </div>
+        --}}
     </div>
 </div>

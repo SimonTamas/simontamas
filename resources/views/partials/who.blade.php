@@ -1,11 +1,9 @@
-<!-- What is -->
 <div id="who" class="content-section-b" style="border-top: 0">
     <div class="container">
 
         <div class="col-md-6 col-md-offset-3 text-center wrap_title">
             <h2 class="wow zoomIn fadeIn">Hello!</h2>
             <p class="lead" style="margin-top:0">My name is Simon Thomas and I am a <br/> full-stack web developer specializing in:</p>
-
         </div>
 
         <div class="row">
@@ -57,7 +55,7 @@
             <div class="col-sm-4 wow fadeInDown text-center">
                 <img class="rotate" src="img/tech/wordpress.png" alt="Wordpress">
                 <h3>Wordpress</h3>
-                <p class="lead">Even though missing a MVC, when it comes CMS its Wordpress all the way!</p>
+                <p class="lead">Even though missing a MVC, when it comes to CMS its Wordpress all the way!</p>
             </div>
 
             <div class="col-sm-4 wow fadeInDown text-center">
@@ -77,3 +75,6 @@
     </div>
 
 </div>
+
+
+<a href="/resume/#skills" class="btn btn-primary btn-block btn-skills"> Full list of skills... </a>

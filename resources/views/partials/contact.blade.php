@@ -1,5 +1,5 @@
 <!-- Contact -->
-<div id="contact" class="content-section-a">
+<div id="contact" class="content-section-b">
     <div class="container">
         <div class="row">
 

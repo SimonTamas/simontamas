@@ -1,0 +1,296 @@
+/*
+    Table of Contents
+    0) Custom rules
+    1) Skills
+    2) Works
+
+*/
+
+/* ----------- 0) Custom Rules -------------- */
+
+.nomargin {  margin:0px !Important;  }
+.nopadding {  padding:0px !Important;  }
+.nopadding-bottom {  padding-bottom: 0px !Important;  }
+.short-info ul li {
+    text-align:justify;
+}
+
+/* ------------------------------------------ */
+
+
+
+/* -------------- 1) Skills ----------------- */
+
+.btn-skills {
+    border-radius:0px;
+    font-size:2.5em;
+    font-weight:bold;
+}
+
+#skills .alert {
+    display:inline-block;
+}
+
+.skill {
+    max-width:640px;
+    overflow:hidden;
+    padding:10px;
+}
+
+.skill h3 {
+    margin-top:0px;
+    margin-bottom:10px;
+    text-align: center;
+}
+
+.skill-left {
+    float:left;
+    width:320px;
+}
+
+.skill-right {
+    padding:0px 10px 0px 10px;
+    text-align: justify;
+}
+
+.skill-left img {
+    border-radius:5px;
+    border:2px dashed #333;
+}
+
+.skill-meter {
+    float:left;
+    width:100%;
+    border:2px solid #333;
+    margin-top:10px;
+    padding:2px;
+    border-radius:5px;
+    font-weight:bold;
+    text-align:right;
+    position: relative;
+    overflow:hidden;
+}
+
+.skill-meter span {
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.skill-bar {
+    padding:8px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    width:0%;
+}
+
+#skill-html5 .skill-bar {background:#f15931;}
+#skill-html5 h3 {color:#f15931;}
+
+#skill-css .skill-bar {background:#007dc6;}
+#skill-css h3 {color:#007dc6;}
+
+#skill-js .skill-bar {background:#f99d34;}
+#skill-js h3 {color:#f99d34;}
+
+#skill-typescript .skill-bar {background:#007acc;}
+#skill-typescript h3 {color:#007acc;}
+
+
+@media (max-width:660px) {
+    .skill .skill-left {
+        float:none;
+        width:100%;
+    }
+
+    .skill .skill-right {
+        width:100%;
+    }
+}
+
+@media (max-width:750px) {
+    #skills .tworow {
+        margin-top:0px;
+    }
+    #skills .col-xs-4 {
+        margin-bottom:30px;
+    }
+}
+/* ------------------------------------------ */
+
+
+
+/* -------------- 2) Works ----------------- */
+
+#portfolio .alert {
+    max-width:288px;
+    margin:auto;
+}
+
+#works a > img {
+    width:100%;
+}
+
+.work {
+    position:relative;
+}
+
+.work:hover .work-hover {
+    opacity:1;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -ms-transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.work-hover-content h3 {
+    margin-top:10px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.work-hover {
+    opacity:0;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    color:#fff;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+    padding:30px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.work-techs {
+    margin-bottom:10px;
+}
+
+.work-techs-inner {
+    display:table;
+    margin:auto;
+}
+
+.work-techs img {
+    padding:10px;
+    width:48px;
+    height:48px;
+    margin:0px 5px 0px 5px;
+}
+
+.work-hover-content  p a {
+    border-bottom:1px dashed #fff;
+}
+
+.work-hover-content  p a:hover {
+    border-bottom:1px solid #fff;
+}
+
+.work-hover-magnify {
+    display:none;
+    position:relative;
+    height:100%;
+}
+
+.work-hover-magnify .glyphicon {
+    color:#fff;
+    font-size:64px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-52px;
+    margin-left:-52px;
+    padding:20px;
+}
+
+.work-hover-content {
+    display:none;
+    padding:10px;
+}
+.work-hover-magnify {
+    display:block
+}
+.work-hover-content h3 {
+    margin-top:0px;
+    font-size:2em;
+}
+.work-hover-content {
+    max-width:480px;
+}
+
+.work-hover-content p {
+    text-align: justify;
+}
+
+.work-hover-content p a {
+    border-color:#1abc9c;
+}
+
+.work-hover-content .alert {
+    margin:0px;
+}
+
+.campona-hover { background:rgba(239,65,53,0.75) }
+.campona-border { border-color:#ef4135 !important; }
+.campona-color { color:#ef4135; }
+.campona-btn { background:#ef4135; color:#fff }
+.campona-btn:hover { background:#ff4539 }
+
+
+.flagella-hover { background:rgba(229,181,11,0.75) }
+.flagella-border { border-color:#ffca0c !important; }
+.flagella-color { color:#ffca0c; }
+.flagella-btn { background:#ffca0c; color:#232323; }
+.flagella-btn:hover { background:#ffd645; color:#232323; }
+
+.carglass-hover { background:rgba(102,180,228,0.75) }
+.carglass-border { border-color:#66b4e4 !important; }
+.carglass-color { color:#66b4e4; }
+.carglass-btn { background:#66b4e4; color:#fff }
+.carglass-btn:hover { background:#87ccf6;  }
+
+.brandlift-hover { background:rgba(198,220,60,0.75) }
+.brandlift-border { border-color:#c6dc3c !important; }
+.brandlift-color { color:#c6dc3c; }
+.brandlift-btn { background:#c6dc3c; color:#fff }
+.brandlift-btn:hover { background:#e0e236;  }
+
+.sberbank-hover { background:rgba(18,101,41,0.75) }
+.sberbank-border { border-color:#126529 !important; }
+.sberbank-color { color:#126529; }
+.sberbank-btn { background:#126529; color:#fff }
+.sberbank-btn:hover { background:#7cc145;  }
+
+.fressnapf-hover { background:rgba(231,0,31,0.75) }
+.fressnapf-border { border-color:#e7001f !important; }
+.fressnapf-color { color:#e7001f; }
+.fressnapf-btn { background:#e7001f; color:#fff }
+.fressnapf-btn:hover { background:#ff4539;  }
+
+.safe-hover { background:rgba(54,196,252,0.75) }
+.safe-border { border-color:#36c4fc !important; }
+.safe-color { color:#36c4fc; }
+.safe-btn { background:#36c4fc; color:#fff }
+.safe-btn:hover { background:#7fe1ff;  }
+
+.volanapp-hover { background:rgba(254,198,37,0.75) }
+.volanapp-border { border-color:#fec625 !important; }
+.volanapp-color { color:#fec625; }
+
+.shannara-hover { background:rgba(172,7,93,0.75) }
+.shannara-border { border-color:#ac075d !important; }
+.shannara-color { color:#ac075d; }
+
+.fairexpress-hover { background:rgba(255,153,0,0.75) }
+.fairexpress-border { border-color:#ff9900 !important; }
+.fairexpress-color { color:#ff9900; }
+
+.telekom-hover { background:rgba(226,0,116,0.75) }
+.telekom-border { border-color:#e20074 !important; }
+.telekom-color { color:#e20074; }
+
+/* ------------------------------------------ */

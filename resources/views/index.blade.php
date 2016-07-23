@@ -10,6 +10,6 @@
     @include('partials.games')
     @include('partials.banner')
     @include('partials.links')
-    @include('partials.contact')
+    {{--@include('partials.contact')--}}
     @include('partials.footer')
 @endsection

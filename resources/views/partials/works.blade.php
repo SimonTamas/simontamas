@@ -1,6 +1,6 @@
 <!-- Screenshot -->
 <div id="screen" class="content-section-b">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row" >
             <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
                 <h2>Works</h2>
