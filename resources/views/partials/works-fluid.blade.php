@@ -377,7 +377,7 @@
                             Seeing bank employees upload their photos filled me with joy.
                         </p>
                         <p>
-                            <em>Developing is lot of fun when you see see users getting involved with what you have built.</em>
+                            <em>Developing is lot of fun when you see users getting involved with what you have built.</em>
                         </p>
                         <div class="work-techs">
                             <div class="work-techs-inner">
@@ -389,7 +389,7 @@
                                 <img src="img/tech/small/mysql.png" alt="MySQL">
                             </div>
                         </div>
-                        <a class="btn sberbank-btn btn-block" href="https://fotopalyazat.sberbank.hu" target="_blank">Visit fotopalyazat.sberbank.hu</a>
+                        <a class="btn sberbank-btn btn-block" href="http://fotopalyazat.sberbank.hu" target="_blank">Visit fotopalyazat.sberbank.hu</a>
                     </div>
                     <div class="work-hover-magnify">
                         <a rel="gallery" class="fancybox" href="#work-fotopalyazat">

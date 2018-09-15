@@ -15,3 +15,8 @@
 Route::get('/', 'IndexController@Start');
 Route::get('/resume', 'ResumeController@Start');
 Route::get('/portfolio', 'PortfolioController@Start');
+
+Route::get('/blog', 'BlogController@Start');
+Route::get('/blog/{$_slug}', 'BlogController@ViewEntry');
+
+Route::get('/justpark', 'JustParkController@Start');
